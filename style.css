@@ -1,0 +1,95 @@
+*
+                                                        /* Styling the entier HTML*/
+
+    {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+}
+
+.casio
+                                                        /* Styling the Logo */
+
+    {
+    position: absolute;
+    color: #ffffff;
+    bottom: 520px;
+}
+
+
+.span1
+
+                                                        /* Styling the Logo - Image */
+    {
+
+    color: rgb(120, 120, 241);
+    font-size: 11px;
+}
+
+
+.container {
+                                                        /*Styling Container that holds the calculator */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: deepskyblue;
+}
+
+
+.calculator {
+                                                            /* Styling the calculator */
+    background-color: rgb(46, 32, 32);
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 12px whitesmoke,
+        inset 5px 5px 12px rgb(0, 0, 0, .16);
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+}
+
+
+input {
+                                                            /* Styling the input area */
+    grid-column: span 4;
+    height: 60px;
+    width: 262px;
+    background-color: #ffff;
+    box-shadow: inset -5px -5px -12px #ffffff,
+        inset 5px 5px 12px rgb(0, 0, 0, .16);
+    ;
+    border: none;
+    border-radius: 30px;
+    font-size: 40px;
+    text-align: end;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 70px;
+    padding: 20px;
+}
+
+
+
+button {
+                                                            /* Styling button */
+    height: 48px;
+    width: 48px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px -12px #ffffff,
+        inset 5px 5px 12px rgb(0, 0, 0, .16);
+    border: none;
+    border-radius: 50%;
+    padding-right: 10px;
+    margin: 8px;
+    font-size: 15px;
+}
+
+
+
+.eval {
+                                                            /* Styling the Equal-to button */
+    width: 110px;
+    border-radius: 20px;
+}
