@@ -1,4 +1,4 @@
-# ephysians.github.io
+# https://emlight-calculator.netlify.app/
 A simple Calculator Project
 
 The Technologies
